@@ -3,7 +3,7 @@ NodeJS script which creates a jasmine SpecRunner.html using customizable file pa
 
 This script was created to make my life easier when debugging jasmine tests and to keep me from punching the monitor each time karma test runner with chrome crashed when debugging.
 
-The generated **custom-spec-runner.html** can be run in any browser of your choice to debug/ execute tests in jasmine spec runner environment for the specified single spec. The html just needs to be refreshed after each time the script is run.
+The generated **custom-spec-runner.html** can be run in any browser of your choice to debug/ execute tests in jasmine spec runner environment for the specified single spec. Once opened the html just needs to be refreshed after each time the script is run or if any of the loaded files are updated.
 
 Currently the script assumes that the file naming pattern of spec files to be __*.spec.js__.
 
