@@ -26,6 +26,7 @@ To load a spec, the spec file name is passed as the third argument on the run co
 node gen-custom-spec-runner.js example.spec.js
 ```
 The generated spec-runner will now have a single passing spec.
+##### Note: The script is designed to load only a single  _*.spec.js_ when specified.
 
 #### Configuring for your application
 The application source _*.js_ and test _*.spec.js_ files can be loaded onto the html by specifying file paths in order (if required) in the provided **custom-config.js** file. By default the script will ignore any file with 'spec' in its name. The file path config must contain the path of your _*.js_ and _*.spec.js_ files. 
