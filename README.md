@@ -30,4 +30,4 @@ The generated spec-runner will now have a single passing spec.
 #### Configuring for your application
 The application _*.js_ and _*.spec.js_ files can be loaded onto the html by specifying file paths in order (if required) in the provided **custom-config.js** file. By default the script will ignore any file with 'spec' in its name. The file path config must contain the path of your _*.js_ and _*.spec.js_ files. 
 
-The config file already contains the file paths to load jasmine library and the example spec. Your file paths should go after the existing paths to ensure that jasmine is bootstrapped first. Also the file paths can be absolute or relative to the spec-runner project base directory.
+The config file already contains the file paths to bootstrap jasmine library and the example spec. Your file paths should go after the existing paths to ensure that jasmine is bootstrapped first. Also the file paths can be absolute or relative to the spec-runner project base directory.
